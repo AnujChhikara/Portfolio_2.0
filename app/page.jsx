@@ -1,3 +1,4 @@
+import AboutMe from '@/components/AboutMe';
 import IntroSection from '@/components/Intro';
 
 import Tech from '@/components/Tech';
@@ -9,7 +10,10 @@ export default function Home() {
    
    
     <IntroSection/>
+    <AboutMe/>
     <Tech/>
+    
+    
     
     </main>
    
