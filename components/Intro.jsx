@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import ProfileImg from '../public/profile.jpg'
+import AboutMe from './AboutMe'
 
 function IntroSection() {
   return (
@@ -22,6 +23,7 @@ function IntroSection() {
         <p className='text-2xl text-[#fad3b0]'>I am a <span className='gradient-text'>Full Stack Developer</span></p>
         
     </div></div>
+  
 
       </main>
        
