@@ -3,7 +3,7 @@ import ProjectComp from './ProjectComp'
 
 function Projects() {
   return (
-    <div className='flex flex-col justify-center items-center pb-20'>
+    <div className='flex flex-col justify-center items-center'>
         <h2 className='font-semibold font-mono text-4xl mb-20 text-gray-300'>Projects</h2>
         <div className='grid grid-cols-4 gap-10
         '>
