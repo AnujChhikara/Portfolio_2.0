@@ -15,9 +15,9 @@ w-80' src="https://images.unsplash.com/photo-1572177812156-58036aae439c?w=500&au
             </div>
          <h4 className=' px-4 pb-2 text-white font-semibold font-mono text-2xl'>Project Name</h4>
         <div className="flex space-x-2 px-4 text-gray-200 pb-2">
-            <p className="bg-gray-400 px-1">React</p>
-            <p className="bg-gray-400 px-1">Tailwind</p>
-            <p className="bg-gray-400 px-1">Redux</p>
+            <p className="bg-gray-700 px-2 shadow-sm shadow-white">React</p>
+            <p className="bg-gray-700 px-2 shadow-sm shadow-white">Tailwind</p>
+            <p className="bg-gray-700 px-2 shadow-sm shadow-white">Redux</p>
         </div>
         <p className="px-4 text-sm text-gray-400 py-2 w-[300px] text-center"> amet consectetur adipisicing elit. veritatis provident possimus nemo corporis asperiores </p>
         

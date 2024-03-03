@@ -1,16 +1,15 @@
 import Image from 'next/image'
-
 import ProfileImg from '../public/profile.jpg'
-import AboutMe from './AboutMe'
+
 
 function IntroSection() {
   return (
     <div className=' text-[#fff0e3]   tracking-tight  flex flex-col  items-center justify-center'>
       <main>
-      <div className="flex items-center  space-x-20">
-      <Image
-        className="sm:w-40 border-2 border-white shadow-md hover:shadow-white hover:shadow-md shadow-white  duration-1000  rounded-full "
-        src={ProfileImg} priority
+      <div className="sm:flex md:flex-row sm:flex-col sm:space-y-16 md:space-y-0 md:items-center sm:justify-center sm:items-center  md:space-x-20">
+      <img
+        className="w-40 border-2 border-white shadow-md hover:shadow-white hover:shadow-md shadow-white  duration-1000  rounded-full "
+        src='./profile.jpg' 
         alt="Anuj-profile-img"
       />
       <div className="flex card flex-col items-start text-3xl space-y-1 out-border">
@@ -18,9 +17,9 @@ function IntroSection() {
        
           <div className='flex items-end space-x-3'>
             <h3>I'm</h3>
-          <h1 className="text-4xl gradient-text "> Anuj Chhikara</h1></div>
+          <h1 className="md:text-4xl sm:text-2xl gradient-text "> Anuj Chhikara</h1></div>
         
-        <p className='text-2xl text-[#fad3b0]'>I am a <span className='gradient-text'>Full Stack Developer</span></p>
+        <p className='md:text-2xl text-[#fad3b0]'>I am a <span className='gradient-text sm:text-2xl'>Full Stack Developer</span></p>
         
     </div></div>
   

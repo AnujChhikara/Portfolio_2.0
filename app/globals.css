@@ -8,7 +8,7 @@
     background-clip: text;
     color: transparent;
     
-    font-weight: 600;
+    font-weight: 700;
   
   }
 
@@ -31,6 +31,18 @@
       background-position: 0% 50%;
     }
   }
+
+
+.heading{
+ background: conic-gradient(at center top, rgb(124, 45, 18), rgb(254, 243, 199), rgb(124, 45, 18));
+ color:transparent;
+ -webkit-background-clip: text; 
+ background-clip: text;
+ font-weight: 800;
+ 
+ 
+}
+
   .card {
     position: relative;
     margin: auto;
