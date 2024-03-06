@@ -8,7 +8,7 @@ function IntroSection() {
       <main>
       <div className="sm:flex md:flex-row sm:flex-col sm:space-y-16 md:space-y-0 md:items-center sm:justify-center sm:items-center  md:space-x-20">
       <img
-        className="w-40 border-2 border-white shadow-md hover:shadow-white hover:shadow-md shadow-white  duration-1000  rounded-full "
+        className="w-44 border-4 border-gray-500  rounded-full "
         src='./profile.jpg' 
         alt="Anuj-profile-img"
       />
@@ -19,7 +19,7 @@ function IntroSection() {
             <h3>I'm</h3>
           <h1 className="md:text-4xl sm:text-2xl gradient-text "> Anuj Chhikara</h1></div>
         
-        <p className='md:text-2xl text-[#fad3b0]'>I am a <span className='gradient-text sm:text-2xl'>Full Stack Developer</span></p>
+        <p className='md:text-2xl '>I am a <span className='gradient-text sm:text-2xl'>Full Stack Developer</span></p>
         
     </div></div>
   

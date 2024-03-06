@@ -5,11 +5,11 @@ function ProjectComp() {
  
   return (
     
-        <div  className='w-[300px] border-1 shadow-gray-800 shadow-md rounded-lg flex flex-col items-center justify-center'>
+        <div  className='w-[300px] border-1 shadow-gray-500 shadow-md rounded-lg flex flex-col items-center justify-center'>
           <div className="mx-4"> 
 
           
-           <img className=' mt-4 mb-2 shadow-sm shadow-black rounded-xl hover:shadow-black hover:shadow-md hover:scale-105 duration-700
+           <img className=' mt-4 mb-2 shadow-sm shadow-gray-600 rounded-xl hover:shadow-gray-700 hover:shadow-md hover:scale-105 duration-700
 
 w-80' src="https://images.unsplash.com/photo-1572177812156-58036aae439c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHN8ZW58MHx8MHx8fDA%3D" alt="" />
             </div>
