@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 import Footer from "@/components/Footer";
+import {Providers} from "./providers";
+
 export const metadata = {
   title: "Anuj Chhikara",
   description: "As a MERN stack and Next.js full-stack developer, I bring web applications to life with cutting-edge technologies. Explore my portfolio for innovative projects, seamless user experiences, and a passion for creating robust, scalable solutions. Let's build the future together. #MERN #NextJS #FullStackDeveloper"
@@ -13,8 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+      <Providers>
         <Navbar/>{children}
-        <Footer/></body>
+        <Footer/> </Providers></body>
       
     </html>
   );
